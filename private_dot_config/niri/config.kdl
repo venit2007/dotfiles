@@ -642,7 +642,7 @@ binds {
 
 //Added by me
 Super+Super_L { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
-
+Mod+Return { spawn "ghostty"; }
 
 
 
