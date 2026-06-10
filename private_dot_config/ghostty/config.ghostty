@@ -1,0 +1,21 @@
+quit-after-last-window-closed = true
+quit-after-last-window-closed-delay = 5m
+
+
+theme = Cobalt Next  
+#TockyoNight
+
+
+#theme= noctalia
+
+# Create splits
+keybind = ctrl+shift+n=new_split:right
+keybind = ctrl+n=new_split:down
+
+keybind = ctrl+a=goto_split:left
+keybind = ctrl+d=goto_split:right
+keybind = ctrl+w=goto_split:up
+keybind = ctrl+s=goto_split:down
+
+# Zoom in/out of the current split
+keybind = ctrl+shift+z=toggle_split_zoom

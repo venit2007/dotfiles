@@ -1,0 +1,32 @@
+#
+# ~/.bashrc
+#
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+PS1='[\u@\h \W]\$ '
+
+source $HOME/OpenFOAM/OpenFOAM-dev/etc/bashrc
+export EDITOR="nano"
+export VISUAL= "nano"
+export TERMINAL=ghostty
+
+
+
+
+
+source ~/missing_sem/bash_functions.sh
+
+
+
+
+#aliases
+alias ebash="nano ~/.bashrc"
+alias eghostty="nano ~/.config/ghostty/config"
+alias enoctalia="nano ~/.config/noctalia/config.yaml"
+
+
+

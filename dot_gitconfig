@@ -1,0 +1,9 @@
+[user]
+	name = venit2007
+	email = 231079939+venit2007@users.noreply.github.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nano
+[color]
+	ui = auto
