@@ -13,7 +13,7 @@ source $HOME/OpenFOAM/OpenFOAM-dev/etc/bashrc
 export EDITOR="nano"
 export VISUAL= "nano"
 export TERMINAL=ghostty
-
+eval "$(starship init bash)"   # or zsh
 
 
 

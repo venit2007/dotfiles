@@ -1,8 +1,7 @@
 quit-after-last-window-closed = true
 quit-after-last-window-closed-delay = 5m
 
-
-theme = Cobalt Next  
+theme = Cobalt Next
 #TockyoNight
 
 
@@ -19,3 +18,17 @@ keybind = ctrl+s=goto_split:down
 
 # Zoom in/out of the current split
 keybind = ctrl+shift+z=toggle_split_zoom
+
+window-padding-x = 12
+window-padding-y = 12
+background-opacity = 0.9
+
+cursor-style = bar
+cursor-style-blink = true
+
+# Important for Wayland
+gtk-single-instance = false
+
+shell-integration = detect
+scrollback-limit = 10000
+
