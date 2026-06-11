@@ -30,3 +30,4 @@ alias enoctalia="nano ~/.config/noctalia/config.yaml"
 
 
 
+eval "$(starship init bash)"

@@ -1,0 +1,53 @@
+# Overall format - what shows on the prompt line
+format = """
+$os$username$hostname$directory$git_branch$git_status$python$nodejs$rust
+$character"""
+
+[os]
+disabled = false
+style = "bold blue"
+
+[os.symbols]
+Arch = " "
+
+[username]
+show_always = false          # only shows when root or SSH
+style_user = "bold green"
+style_root = "bold red"
+
+[hostname]
+ssh_only = true              # only shows over SSH
+style = "bold yellow"
+
+[directory]
+truncation_length = 3        # show last 3 dirs
+truncate_to_repo = true      # truncate to git root
+style = "bold cyan"
+
+[git_branch]
+symbol = " "
+style = "bold purple"
+
+[git_status]
+modified = "!"
+untracked = "?"
+staged = "+"
+deleted = "✘"
+style = "bold red"
+
+[python]
+symbol = " "
+style = "bold yellow"
+
+[nodejs]
+symbol = " "
+style = "bold green"
+
+[rust]
+symbol = " "
+style = "bold orange"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"    # turns red on command failure
+
