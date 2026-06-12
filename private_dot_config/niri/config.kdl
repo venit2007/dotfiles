@@ -720,4 +720,3 @@ layer-rule {
 
 spawn-at-startup "sh" "-c" "sleep 2 && qs -c noctalia-shell ipc call lockScreen lock"
 include "./noctalia.kdl"
-spawn-at-startup "swww-daemon"    // wallpaper daemon
