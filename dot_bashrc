@@ -18,7 +18,7 @@ eval "$(starship init bash)"   # or zsh
 
 
 
-source ~/missing_sem/bash_functions.sh
+source ~/bash_functions.sh
 
 
 
@@ -27,7 +27,8 @@ source ~/missing_sem/bash_functions.sh
 alias ebash="nano ~/.bashrc"
 alias eghostty="nano ~/.config/ghostty/config"
 alias enoctalia="nano ~/.config/noctalia/config.yaml"
-
+alias foobar='venit2007@192.168.29.182'
 
 
 eval "$(starship init bash)"
+export PATH="$HOME/.local/share/gem/ruby/3.4.0/bin:$PATH" 
